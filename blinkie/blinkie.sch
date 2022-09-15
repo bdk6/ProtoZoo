@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 63232107
+P 4100 1900
+F 0 "D?" H 4093 2117 50  0000 C CNN
+F 1 "LED" H 4093 2026 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 63232753
+P 5350 1700
+F 0 "R?" H 5418 1746 50  0000 L CNN
+F 1 "R_Small_US" H 5418 1655 50  0000 L CNN
+F 2 "" H 5350 1700 50  0001 C CNN
+F 3 "~" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT574 U?
+U 1 1 632334F9
+P 5200 3600
+F 0 "U?" H 5200 4581 50  0000 C CNN
+F 1 "74HCT574" H 5200 4490 50  0000 C CNN
+F 2 "" H 5200 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U?
+U 1 1 6323459F
+P 1900 3500
+F 0 "U?" H 1900 3817 50  0000 C CNN
+F 1 "74HC14" H 1900 3726 50  0000 C CNN
+F 2 "" H 1900 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1900 3500 50  0001 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC14 U?
+U 1 1 632354B5
+P 1800 1950
+F 0 "U?" H 1800 2267 50  0000 C CNN
+F 1 "74HC14" H 1800 2176 50  0000 C CNN
+F 2 "" H 1800 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 1800 1950 50  0001 C CNN
+	1    1800 1950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
